@@ -1,0 +1,1004 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+.page1{
+    background-image: url(images/page1.png);
+    width: 100%;
+    height: 700px;
+    background-size: 100%;
+}
+
+.flex{
+    display: flex;
+}
+
+.green_bg{
+    background-color: #2DA884;
+}
+
+.border{
+    border: none;
+}
+
+.color-w{
+    color: white;
+}
+
+.green-color{
+    color: #2DA884;
+}
+
+.card1{
+    border-bottom: white solid 1px;
+}
+
+.card1 h2{
+    padding: 20px 60px;
+    font-weight: 500;
+}
+
+.card1 .p{
+    padding: 25px 60px;
+
+}
+
+.card1 .p2{
+    padding: 25px 0 25px 60px;
+}
+
+.img1{
+    padding: 23px 60px 20px 8px;
+    color: white;
+    width: 10px;
+    height: 10px;
+    margin-right: 50px;
+}
+
+.btn{
+    width: 6%;
+    margin: 20px 0 20px 60px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.align{
+    text-align: center;
+}
+
+.card2 h1{
+    font-size: 80px;
+    width: 40%;
+    margin:50px 30%;
+}
+
+.card2 .pa1{
+    width: 50%;
+    margin:0 30%;
+}
+
+.btn1{
+    margin: 40px 0 60px 60px;
+    border-radius: 100px;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.w-bg{
+    background-color: white;
+}
+
+.card3{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20%;
+    background-color: white;
+    margin-right: 20%;
+    border-radius:  10px;
+    padding: 20px;
+}
+
+.card3 .pa2{
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.pb{
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+
+.page2{
+    margin: 50px;
+}
+
+.card4 h2{
+    width: 60%;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card4 p{
+    width: 53%;
+    font-size: 90%;
+    margin-bottom: 50px;
+}
+
+.card5 .d{
+    width:70%;
+    margin: 2% 0;
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+}
+
+.card5 .img2 img{
+    height: 450px ;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.page3{
+    margin: 70px;
+}
+
+.card6{
+    margin-left: 70px;
+}
+
+.card6 h2{
+    width: 70%;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card6 p{
+    width: 75%;
+    font-size: 90%;
+    margin-bottom: 50px;
+}
+
+.card6 .cb{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card6 .cb img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+.card6 .cb p{
+    margin-top: 5px;
+}
+
+.page4{
+    margin: 70px;
+}
+
+.card7 h2{
+    width: 45%;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.card7 p{
+    width: 50%;
+    font-size: 90%;
+    margin-bottom: 50px;
+}
+
+.card8 {
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card8 .d2{
+    width:32%;
+    margin: 2% 0;
+    border-radius: 10px;
+    padding: 3%;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+}
+
+.card8 .d2 h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.page5{
+    margin: 70px;
+}
+
+.card9 h2{
+    width: 45%;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-left: 30%;
+}
+
+.card9 p{
+    width: 50%;
+    font-size: 90%;
+    margin-bottom: 50px;
+    margin-left: 28%;
+}
+
+.d3{
+    margin-right: 50px;
+    width: 32%;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+    border-radius: 10px;
+    height: 20%;
+}
+
+.d3 .con1{
+    padding:40px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.d3 .con1 p{
+    margin-right: 40%;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.d3 .con1 button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.con2{
+    padding: 50px 50px 40px 50px;
+    border-bottom: #2DA884 solid 1px;
+}
+
+.con2 .pa3{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.con2 .pa4{
+    font-weight: 500;
+}
+
+.con3 .l{
+    margin: 40px;
+    padding-bottom: 15px;
+    border-bottom: #2DA884 solid 1px;
+}
+
+.con3 .l p{
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.con4 button{
+    margin-bottom: 35px;
+    padding: 15px 80px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+.d3{
+    margin-right: 50px;
+    width: 32%;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+    border-radius: 10px;
+}
+
+.d3 .con1{
+    padding:40px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.d3 .con1 p{
+    margin-right: 40%;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.d3 .con1 button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.con2{
+    padding: 50px 50px 40px 50px;
+    border-bottom: #2DA884 solid 1px;
+}
+
+.con2 .pa3{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.con2 .pa4{
+    font-weight: 500;
+}
+
+.con3 .l{
+    margin: 40px;
+    padding-bottom: 15px;
+    border-bottom: #2DA884 solid 1px;
+}
+
+.con3 .l p{
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.con4 button{
+    margin-bottom: 35px;
+    padding: 15px 80px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.d4{
+    margin-right: 50px;
+    width: 32%;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+    border-radius: 10px;
+    height: 40%;
+}
+
+.d4 .con5{
+    padding:40px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.d4 .con5 p{
+    margin-right: 34%;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.d4 .con5 button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.con6{
+    padding: 50px 50px 40px 50px;
+    border-bottom: #2DA884 solid 3px;
+}
+
+.con6 .pa5{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.con6 .pa6{
+    font-weight: 500;
+}
+
+.con7 .l2{
+    margin: 40px;
+    padding-bottom: 15px;
+    border-bottom: #2DA884 solid 1px;
+}
+
+.con7 .l2 p{
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.con8 button{
+    margin-bottom: 35px;
+    padding: 15px 80px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.d5{
+    margin-right: 50px;
+    width: 32%;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+    border-radius: 10px;
+}
+
+.d5 .con9{
+    padding:40px ;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.d5 .con9 p{
+    margin-right: 37%;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.d5 .con9 button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+}
+
+.con10{
+    padding: 50px 50px 40px 50px;
+    border-bottom: white solid 3px;
+}
+
+.con10 .pa7{
+    font-weight: 600;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.con10 .pa8{
+    font-weight: 500;
+}
+
+.con11 .l3{
+    margin: 40px;
+    padding-bottom: 15px;
+    border-bottom: white solid 1px;
+}
+
+.con11 .l3 p{
+    font-weight: 500;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.con12 button{
+    margin-bottom: 35px;
+    padding: 15px 80px;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+.endc{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.card11 h2{
+    width: 45%;
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-left: 30%;
+    text-transform: capitalize;
+}
+
+.card11 p{
+    width: 45%;
+    font-size: 90%;
+    margin-bottom: 50px;
+    margin-left: 28%;
+}
+
+.card12{
+    margin: 70px 90px;
+}
+
+.card12 .con13{
+    margin-right:40px ;
+}
+
+.row1 img{
+    border-radius: 10px;
+    margin-right: 30px;
+    margin-bottom: 38px;
+}
+
+.row2 img{
+    border-radius: 10px;
+}
+
+.con15 img{
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+
+.page7{
+    margin: 70px;
+}
+
+.card13 h2{
+    width: 50%;
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    margin-left: 30%;
+}
+
+.card13 p{
+    width: 65%;
+    font-size: 90%;
+    margin-bottom: 50px;
+    margin-left: 20%;
+}
+
+.con16{
+    position: relative;
+    width: 50%;
+}
+
+.con17 img{
+    border-radius: 50%;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.con18{
+    width: 89%;
+    padding: 30px 30px 30px 55px;
+    border-radius: 10px;
+    margin-left: 45px;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+    margin-bottom: 30px;
+}
+
+.con18 .pa9{
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.con19 h4{
+    font-weight: 500;
+    margin-right: 34%;
+    font-size: 30px;
+}
+
+.con20 img{
+    margin-right: 5px;
+    margin-top: 12px;
+}
+
+.con21{
+    font-size: 10px;
+}
+
+.card14{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card15{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.con22{
+    position: relative;
+}
+
+.con23 img{
+    border-radius: 50%;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.con24{
+    width: 85%;
+    padding: 30px 30px 30px 55px;
+    border-radius: 10px;
+    margin-left: 45px;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+    margin-bottom: 30px;
+}
+
+.con24 .pa9{
+    margin-bottom: 30px;
+}
+
+.con25 h4{
+    font-weight: 500;
+    margin-right: 34%;
+    font-size: 30px;
+}
+
+.con26 img{
+    margin-right: 5px;
+    margin-top: 12px;
+}
+
+.con27{
+    font-size: 10px;
+}
+
+.con28{
+    position: relative;
+    width: 50%;
+}
+
+.con29 img{
+    border-radius: 50%;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.con30{
+    width: 89%;
+    padding: 30px 30px 30px 55px;
+    border-radius: 10px;
+    margin-left: 45px;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+}
+
+.con30 .pa9{
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+.con31 h4{
+    font-weight: 500;
+    margin-right: 25%;
+    font-size: 25px;
+}
+
+.con32 img{
+    margin-right: 5px;
+    margin-top: 12px;
+}
+
+.con33{
+    font-size: 10px;
+}
+
+.card16{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card17{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.con34{
+    position: relative;
+}
+
+.con35 img{
+    border-radius: 50%;
+    margin-top: 60px;
+    position: absolute;
+}
+
+.con36{
+    width: 85%;
+    padding: 30px 30px 30px 55px;
+    border-radius: 10px;
+    margin-left: 45px;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+}
+
+.con36 .pa9{
+    margin-bottom: 30px;
+}
+
+.con37 h4{
+    font-weight: 500;
+    margin-right: 34%;
+    font-size: 30px;
+}
+
+.con38 img{
+    margin-right: 5px;
+    margin-top: 12px;
+}
+
+.con39{
+    font-size: 10px;
+}
+
+.page8{
+    margin: 50px;
+}
+
+.card18 h2{
+    width: 70%;
+    font-size: 60px;
+    font-weight: 550;
+    margin-bottom: 15px;
+    margin-left: 15%;
+}
+
+.card18 p{
+    width: 66%;
+    font-size: 90%;
+    margin-bottom: 50px;
+    margin-left: 19%;
+}
+
+.con40{
+    padding: 20px 40px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+    margin-bottom: 20px;
+}
+
+.con41 h4{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.con41 img{
+    margin-left: 30%;
+    margin-top: 15px;
+}
+
+.con40 p{
+    width: 86%;
+}
+
+.con40 h4{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.con40 img{
+    margin-left: 33%;
+    margin-top: 15px;
+}
+
+.con42{
+    padding: 20px 40px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+    margin-bottom: 20px;
+}
+
+.con42 h4{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.con42 img{
+    margin-left: 27%;
+    margin-top: 15px;
+}
+
+.con43{
+    padding: 20px 40px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+    margin-bottom: 20px;
+}
+
+.con43 h4{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.con43 img{
+    margin-left: 41.5%;
+    margin-top: 15px;
+}
+
+.con44{
+    padding: 20px 40px ;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(222, 219, 219);
+    margin-bottom: 20px;
+}
+
+.con44 h4{
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.con44 img{
+    margin-left: 36.5%;
+    margin-top: 15px;
+}
+
+.page9{
+    margin: 50px 90px;
+}
+
+.card20 h2{
+    width: 70%;
+    font-size: 60px;
+    font-weight: 550;
+    margin-bottom: 15px;
+    margin-left: 15%;
+}
+
+.card20 p{
+    width: 48%;
+    font-size: 90%;
+    margin-bottom: 50px;
+    margin-left: 25%;
+}
+
+.card22{
+    width: 28%;
+    margin-right: 50px;
+}
+
+.con45 img{
+    margin-bottom: 20px;
+}
+
+.con46 .pa10{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.con46 .pa11{
+    font-weight: 600;
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+
+.icons .icon img{
+    width: 20px;
+    height: 17px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.icons .icon p{
+    margin-right: 10px;
+    font-weight: 450;
+}
+
+.con46 .pa12{
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+
+.con47 button{
+    padding: 20px 35%;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.page10{
+    margin: 50px;
+}
+
+.card23 h2{
+    width: 70%;
+    font-size: 60px;
+    font-weight: 550;
+    margin-bottom: 15px;
+    margin-left: 15%;
+}
+
+.card23 p{
+    width: 55%;
+    font-size: 90%;
+    margin-bottom: 50px;
+    margin-left: 25%;
+}
+
+.con48 img{
+    margin-left: 100px;
+}
+
+.con49{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 40%;
+}
+
+.con49 .pa13{
+    margin: 50px 50px 10px;
+    font-weight: 500;
+}
+
+.con49 .pa14{
+    margin: 0px 50px 0px;
+    font-weight: 500;
+}
+
+.con49 .inp{
+    margin: 0px 50px 20px 50px;
+    width: 80%;
+    padding: 15px;
+    border: white solid 1px;
+    border-radius: 30px;
+}
+
+.con49 .inp::placeholder{
+    color: white;
+}
+
+.con49 button{
+    padding: 15px;
+    border-radius: 30px;
+    width: 80%;
+    margin: 20px 50px 20px 50px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.card25{
+    margin: 80px;
+    width: 20%;
+}
+
+.card25 h4{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.card26{
+    margin: 60px 0px;
+    width: 13%;
+}
+
+.card26 h4{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.card26 p{
+    margin-bottom: 20px;
+}
+
+.card27{
+    margin: 70px 0px;
+    width: 20%;
+}
+
+.card27 h4{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.con50 img{
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+}
+
+.con50{
+    margin-bottom: 20px;
+}
+
+.card28{
+    margin: 110px 60px;
+}
+
+.card28 h4{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.con51 img{
+    margin-right: 40px;
+}
