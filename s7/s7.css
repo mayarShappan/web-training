@@ -481,6 +481,11 @@ hr{
 
 .con20{
     margin: 35px 7px 0 60px;
+    width: 10%;
+}
+
+.con20 img{
+    margin-bottom: 20px;
 }
 
 .con21{
