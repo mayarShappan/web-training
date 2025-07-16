@@ -1,0 +1,40 @@
+.small-container{
+    background-color: #F9F1E7;
+}
+
+.orange-bg{
+    background-color: #B88E2F;
+}
+
+.light-bg{
+    background-color: #F9F1E7;
+}
+
+.purple-bg{
+    background-color: #816DFA;
+}
+
+.black-bg{
+    background-color: black;
+}
+
+.light-red-bg{
+    background-color: #E97171;
+    top: 30px;
+    right: 20px;
+}
+
+.light-gray{
+    background-color: #F4F5F7;
+}
+
+.green-bg{
+    background-color: #2EC1AC;
+    top: 30px;
+    right: 20px;
+}
+
+.mybtn{
+    color: #B88E2F;
+    border: #B88E2F solid 1px;
+}
